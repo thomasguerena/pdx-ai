@@ -35,7 +35,8 @@ class Terrain {
 				scaleOverride: true,
 				scaleStartValue: 0,
 				scaleStepWidth: 10,
-				scaleSteps: 10
+				scaleSteps: 10,
+				scaleShowGridLines: false
 		});
 	}
 
