@@ -1,0 +1,23 @@
+{
+  "name": "simple-ga",
+  "authors": [
+    "Thomas Guerena <guerena.t@gmail.com>"
+  ],
+  "description": "Example of simple genetic algorithm",
+  "main": "js/main.js",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "Chart.js": "chartjs#~1.0.2"
+  }
+}

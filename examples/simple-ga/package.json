@@ -1,0 +1,15 @@
+{
+  "name": "simple-ga",
+  "version": "1.0.0",
+  "description": "Example of simple genetic algorithm",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thomas Guerena",
+  "license": "MIT",
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.0"
+  }
+}
