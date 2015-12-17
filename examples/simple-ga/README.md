@@ -66,7 +66,7 @@ How much to mutate, which individuals to mutate, and how often to mutate will gr
 
 _tldr version_ - Begin evolution with very high mutation rate, then reduce mutation rate over time.
 ##### Repeat:
-Steps two through six are repeated until you decide you're finished evolving. In our example, there is no evolution terminator - the program just runs until you kill it.
+Steps two through six are repeated until you decide you're finished evolving. In our example, there is no evolution terminator. The program just runs until you kill it.
 
 ## Ready to Code
 The only file you need to edit (hopefully) is `app/js/main.js`. This code is written in ES6 NodeJS inside an [Electron](http://electron.atom.io/) (formally Atom Shell) application. This means you're within a hybrid context of Node and the browser. If you're a beginner and none of this makes sense to you, just know you're programming in Javascript.
@@ -86,5 +86,7 @@ $ bower install
 Once installed, you can launch the app with `npm start`.
 
 In order for your changes to take effect, you will either need to kill the app `ctrl-c` and launch it again, or type `location.reload()` into the developer tools console (inside the app). This console can be opened via `ctrl-shift-i` on Linux or Windows and `command-shift-i` on Mac. I recommend detaching the console from your Window to keep the application UI readable.
+
+You will find further instructions in the `app/js/main.js` file. Good luck!
 
 If you get stuck and have any questions or comments, direct them to the author, Thomas Guerena. You can post in the issues on [Github](https://github.com/thomasguerena/pdx-ai), or on our [Meetup](http://www.meetup.com/PDX-Artificial-Intelligence/) page (if you're a member of PDX AI).
